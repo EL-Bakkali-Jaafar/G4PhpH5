@@ -1,0 +1,11 @@
+# Macro file for example B1
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+/control/verbose 1
+#
+/random/setSeeds 0 1
+/run/verbose 1
+/event/verbose 0
+/run/beamOn 100000
